@@ -37,8 +37,14 @@ class _HomePageState extends State<HomePage> {
         selectedIndex: _index,
         onDestinationSelected: (i) => setState(() => _index = i),
         destinations: const [
-          NavigationDestination(icon: Icon(Icons.list), label: 'The Order (Future)'),
-          NavigationDestination(icon: Icon(Icons.sync), label: 'The Belt (Stream)'),
+          NavigationDestination(
+            icon: Icon(Icons.list),
+            label: 'The Order (Future)',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.sync),
+            label: 'The Belt (Stream)',
+          ),
         ],
       ),
     );
